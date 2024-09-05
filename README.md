@@ -15,8 +15,6 @@ The scripts perform tasks such as downloading and transforming CSV files, moving
 
 ## Bash Scripts
 
-### `etl_process.sh`
-
 This script performs an ETL process that:
 1. **Extracts** a CSV file from a provided URL.
 2. **Transforms** the file by renaming columns and selecting specific columns.
@@ -25,4 +23,4 @@ This script performs an ETL process that:
 #### Usage
 To run this script, use:
 ```bash
-bash Scripts/Bash/etl_process.sh
+/<script_name>.sh
